@@ -10,6 +10,18 @@ Install using [npm][npm-url].
 
     $ npm install hexo-generator-atom-markdown-writer-meta --save
 
+## Markdown-Writer Configuration for Hexo
+
+Field          | Sample Value
+---------------|----
+File Extension | .md
+Site Draft Dir | source/_drafts
+Site Local Dir | /Users/timnew/Workspace/blogs/timnew
+Site Posts Dir | source/_posts
+Url for Categories | http://timnew.github.io/categories.json
+Url for Posts      | http://timnew.github.io/posts.json
+Url for Tags       | http://timnew.github.io/tags.json
+
 ## Files
 
 * `posts.json`: Json file contains name, url and last update time for each post
