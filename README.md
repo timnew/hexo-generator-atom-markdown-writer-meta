@@ -25,8 +25,8 @@ Url for Tags       | http://timnew.github.io/tags.json
 ## Files
 
 * `posts.json`: Json file contains name, url and last update time for each post
-* `tags.json`: Json file contains the tags that used in the blog
-* `cateogories.json`: Json file contains the categories that used in the blog
+* `tags.json`: Json file contains the tags that used in the blog, sorted by occurrence
+* `cateogories.json`: Json file contains the categories that used in the blog, sorted by occurrence
 
 ## Related Tools
 

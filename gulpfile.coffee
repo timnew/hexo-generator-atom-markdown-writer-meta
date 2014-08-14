@@ -13,6 +13,7 @@ argv = require('yargs')
 
 paths =
   source:
+    manifest: ['package.json']
     coffee: ['src/*.coffee']
   dest:
     root: '.'

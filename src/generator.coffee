@@ -12,17 +12,21 @@ generatePostsJson = (posts) ->
 
   hexo.route.set('posts.json', JSON.stringify(postsMeta))
 
+comparer = (a, b) ->
+  b.length - a.length
+
+extractName = (obj) ->
+  obj.name
+
 generateCategoriesJson = (categories) ->
   categoriesMeta =
-    categories: categories.map (category) ->
-      category.name
+    categories: categories.sort(comparer).map(extractName)
 
   hexo.route.set('categories.json', JSON.stringify(categoriesMeta))
 
 generateTagsJson = (tags) ->
   tagsMeta =
-    tags: tags.map (tag) ->
-      tag.name
+    tags: tags.sort(comparer).map(extractName)
 
   hexo.route.set('tags.json', JSON.stringify(tagsMeta))
 
