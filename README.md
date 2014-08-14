@@ -46,7 +46,7 @@ MIT
 [npm-downloads]: http://img.shields.io/npm/dm/hexo-generator-atom-markdown-writer-meta.svg?style=flat
 
 [depstat-url]: https://gemnasium.com/timnew/hexo-generator-atom-markdown-writer-meta
-[depstat-image]: http://img.shields.io/gemnasium/timnew/hexo-generator-atom-markdown-writer-meta
+[depstat-image]: http://img.shields.io/gemnasium/timnew/hexo-generator-atom-markdown-writer-meta.svg?style=flat
 
 [atom-url]: https://atom.io/
 [markdown-writer-url]: https://github.com/zhuochun/md-writer
